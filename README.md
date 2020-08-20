@@ -13,14 +13,14 @@ The value of 0 indicates that the contact occurred on the date when the event wa
 edge between two people, then they  made  no  contact  that  was  reported. 
 
 Functions: 
-- Counts virus-positive contacts
+- Counts virus-positive contacts:
 The function will traverse through the graph starting at the person specified by person_id. 
 It will then count other distinct individuals who tested positive for the virus who are 
 directly or indirectly connected to the starting individual. If the starting individual 
 also tested positive, the function will not include that person in the count. If no such 
 individuals exists, the function will return 0.
 
-- Find largest cluster with multiple virus-positive contacts
+- Find largest cluster with multiple virus-positive contacts:
 The function will traverse through the people in the graph. It will then count how many other
 distinct people are connected to the starting individual and if there are at least two 
 individuals in a cluster who tested positive. If no such cluster exists, the function 
