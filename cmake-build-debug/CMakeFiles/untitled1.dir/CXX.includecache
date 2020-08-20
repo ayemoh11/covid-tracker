@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Ayesha/CLionProjects/untitled1/finalassignment.cpp
+iostream
+-
+stack
+-
+algorithm
+-
+queue
+-
+vector
+-
+string
+-
+finalassignment.hpp
+/Users/Ayesha/CLionProjects/untitled1/finalassignment.hpp
+
+/Users/Ayesha/CLionProjects/untitled1/finalassignment.hpp
+string
+-
+stack
+-
+algorithm
+-
+iostream
+-
+vector
+-
+queue
+-
+
